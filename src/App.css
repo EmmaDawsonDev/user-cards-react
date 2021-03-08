@@ -1,9 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 .App {
   text-align: center;
   margin: 0 auto;
   max-width: 1440px;
   
+}
+
+h1, h2 {
+  font-family: 'Righteous', cursive;
+}
+
+body {
+  background-color: rgb(255, 249, 241);
 }
 
 
