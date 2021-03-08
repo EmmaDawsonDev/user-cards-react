@@ -1,11 +1,16 @@
 
 import Card from "../card/card"
+import "./card-list.css"
 
-function Cardlist() {
+function Cardlist(props) {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <Card />
+    <div class="card-list">
+      {props.userList.map(user => {
+        return <Card user={user} key={user.id} />
+      })
+
+      }
+      
     </div>
   )
 }
